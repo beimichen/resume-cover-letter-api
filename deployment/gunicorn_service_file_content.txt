@@ -1,0 +1,12 @@
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/projects/resume-cover-letter-api
+ExecStart=/home/ubuntu/projects/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/projects/resume-cover-letter-api/resume-cover-letter-api.sock app:app
+
+[Install]
+WantedBy=multi-user.target

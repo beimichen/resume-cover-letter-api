@@ -1,0 +1,121 @@
+{
+  "default": {
+    "total_num_of_par": 6,
+    "total_num_of_char": 1494,
+    "intro": {
+      "num_of_sent": 1,
+      "original_par": "It is a pleasure to be applying for this position at your company.",
+      "paragraph_1": {
+        "sent1": {
+          "sentence_hash": "d5f57d71793beb1a",
+          "sentence_type": "intro_job_application_sentence",
+          "parsed_sentence_text": "It is a pleasure to be applying for the [position] position at [org].",
+          "original_sentence_text": "It is a pleasure to be applying for the Academic Advisor position at River Tech."
+        }
+      }
+    },
+    "body": {
+      "num_of_body_par": 4,
+      "paragraph_2": {
+        "num_of_sent": 2,
+        "original_par": " As someone with an extensive background in the field, I am well-equipped to provide the necessary expertise to compliment your team. My passion for the field makes me confident in my ability to fulfill this role.",
+        "sent1": {
+          "parsed_sentence_text": "As someone with an extensive background in the field, I am well-equipped to provide the necessary expertise to compliment your team.",
+          "original_sentence_text": " As someone with an extensive background in education, I am well-equipped to provide the necessary expertise to compliment your team.",
+          "sentence_hash": "96bfaebf3d9e072d",
+          "sentence_type": "body_discrete_sentence"
+        },
+        "sent2": {
+          "parsed_sentence_text": "My passion for the field makes me confident in my ability to fulfill this role.",
+          "original_sentence_text": "My passion for the field makes me confident in my ability to fulfill this role.",
+          "sentence_hash": "9701d477ce703df5",
+          "sentence_type": "body_discrete_sentence"
+        }
+      },
+      "paragraph_3": {
+        "num_of_sent": 2,
+        "original_par": "During my previous employment tenure, I worked in numerous areas of relevance.",
+        "sent1": {
+          "parsed_sentence_text": "During my previous University tenure, I worked with a student body of over 3,000 students and was directly assigned to large portion of those students per year.",
+          "original_sentence_text": "During my previous University tenure, I worked with a student body of over 3,000 students and was directly assigned to large portion of those students per year.",
+          "sentence_hash": "85ce0b136c260ae3",
+          "sentence_type": "body_personal_experience_sentence"
+        },
+        "sent2": {
+          "parsed_sentence_text": "My responsibilities included making course schedules for each student every semester, addressing student concerns, and meeting with students to discuss the change of major, programme evaluations, and grade concerns.",
+          "original_sentence_text": "My responsibilities included making course schedules for each student every semester, addressing student concerns, and meeting with students to discuss change of major, programme evaluations, and grade concerns.",
+          "sentence_hash": "0bcd7d0d98389e9d",
+          "sentence_type": "body_discrete_sentence"
+        }
+      },
+      "paragraph_4": {
+        "num_of_sent": 4,
+        "original_par": "I pay close attention to the needs of students and those of my coworkers. I make it a priority to put the needs of others first and to always meet deadlines. I am well-aware of the careful planning and dedication it takes to be an Academic Advisor. My abilities stem from my University education which taught me the knowledge needed to properly advise students.",
+        "sent1": {
+          "parsed_sentence_text": "I pay close attention to the needs of students and those of my coworkers.",
+          "original_sentence_text": "I pay close attention to the needs of students and those of my coworkers.",
+          "sentence_hash": "26ec38a74cff4744",
+          "sentence_type": "body_discrete_sentence"
+        },
+        "sent2": {
+          "parsed_sentence_text": "I make it a priority to put the needs of others first and to always meet deadlines.",
+          "original_sentence_text": "I make it a priority to put the needs of others first and to always meet deadlines.",
+          "sentence_hash": "43130293379143f9",
+          "sentence_type": "body_discrete_sentence"
+        },
+        "sent3": {
+          "parsed_sentence_text": "I am well-aware of the careful planning and dedication it takes to be an [position].",
+          "original_sentence_text": "I am well-aware of the careful planning and dedication it takes to be an Academic Advisor.",
+          "sentence_hash": "6c877bdf635ac49f",
+          "sentence_type": "body_personal_experience_sentence"
+        },
+        "sent4": {
+          "parsed_sentence_text": "My abilities stem from my University education which taught me the knowledge needed to properly advise students.",
+          "original_sentence_text": "My abilities stem from my University education which taught me the knowledge needed to properly advise students.",
+          "sentence_hash": "f7bc467ae3926a5c",
+          "sentence_type": "body_discrete_sentence"
+        }
+      },
+      "paragraph_5": {
+        "num_of_sent": 2,
+        "original_par": " Throughout my career, I have made a point to be the Academic Advisor I wish I had around when I was a student in college. I am willing to do what it takes to ensure the success of my students.",
+        "sent1": {
+          "parsed_sentence_text": "Throughout my career, I have made a point to be the [position] I wish I had around when I was a student in college.",
+          "original_sentence_text": " Throughout my career, I have made a point to be the Academic Advisor I wish I had around when I was a student in college.",
+          "sentence_hash": "d0299c5354124905",
+          "sentence_type": "body_personal_experience_sentence"
+        },
+        "sent2": {
+          "parsed_sentence_text": "I am willing to do what it takes to ensure the success of my students.",
+          "original_sentence_text": "I am willing to do what it takes to ensure the success of my students.",
+          "sentence_hash": "536e4d045192bd76",
+          "sentence_type": "body_discrete_sentence"
+        }
+      }
+    },
+    "outro": {
+      "num_of_sent": 3,
+      "paragraph_6": {
+        "sent1": {
+          "sentence_type": "outro_closing_sentence",
+          "sentence_hash": "83e081c7a05b7831",
+          "parsed_sentence_text": "I would like to thank you for reviewing my application.",
+          "original_sentence_text": "I would like to thank you for reviewing my application."
+        },
+        "sent2": {
+          "sentence_type": "outro_closing_sentence",
+          "sentence_hash": "06f2449b6b29334e",
+          "parsed_sentence_text": "I look forward to learning more about your company and the responsibilities of your Academic Advising team.",
+          "original_sentence_text": "I look forward to learning more about your company and the responsibilities of your Academic Advising team."
+        },
+        "sent3": {
+          "sentence_type": "outro_closing_sentence",
+          "sentence_hash": "b4cc14478f982f9c",
+          "parsed_sentence_text": "With my education and previous experience, I am confident in my ability to deliver as an [position].",
+          "original_sentence_text": "With my education and previous experience, I am confident in my ability to deliver as an Academic Advisor."
+        }
+      },
+      "original_par": "I would like to thank you for reviewing my application. I look forward to learning more about your company and the responsibilities of your Academic Advising team. With my education and previous experience, I am confident in my ability to deliver as an Academic Advisor."
+    }
+  }
+}

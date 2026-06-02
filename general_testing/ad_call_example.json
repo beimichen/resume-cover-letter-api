@@ -1,0 +1,42 @@
+{
+  source: url,
+  // Universal - unique identifier used for searching s3 for body text
+  hash_id: '',
+  // Universal
+  job_title: conditionallyExtractPositionTitle(html),
+  // Universal
+  company: conditionallyExtractCompanyName(html),
+  // Universal
+  location: conditionallyExtractLocation(html),
+  // Universal
+  company_logo: conditionallyExtractCompanyLogo(html),
+  // Universal
+  salary: conditionallyExtractSalary(html),
+  // Universal
+  time_posted: conditionallyExtractDatePosted(html),
+  // Universal
+  employment_type: conditionallyExtractEmploymentType(html),
+  // Universal
+  description: conditionallyExtractJobDesc(html),
+  // Universal
+  indeed_apply_btn_html: conditionalyExtractInternalApplyUrl(html),
+  // Universal
+  indeed_apply_btn_url: null,
+  // Universal
+  external_apply_url: conditionallyExtractExternalApplyUrl(html),
+  // Universal
+  extracted_skills: [],
+  // Universal
+  matched_skills: [],
+  // Personal - decouple from ad model
+  new: true,
+  // Personal - decouple from ad model
+  read: false,
+  // Personal - decouple from ad model
+  recommended: false,
+  // Personal - decouple from ad model
+  favourite: false,
+  // Personal - decouple from ad model
+  cover_letter: ''
+  // Personal - decouple from ad model
+}

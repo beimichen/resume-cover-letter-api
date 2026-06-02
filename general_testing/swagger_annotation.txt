@@ -1,0 +1,52 @@
+    # parsed_resume_example = json.loads(raw_resume_parsed, indent=4)
+
+    # @api.doc(params={
+    #
+    #     # Employer
+    #
+    #     'job_title': {
+    #         'description': 'Job or Position title',
+    #         'type': 'str',
+    #         'default': 'Software Developer'
+    #     },
+    #
+    #     'job_ad_description': {
+    #         'description': 'Job ad description',
+    #         'type': 'str',
+    #         'default': job_ad_example
+    #     },
+    #
+    #     'company_name': {
+    #         'description': 'Company name',
+    #         'type': 'str',
+    #         'default': 'Horizon Industries'
+    #     },
+    #
+    #     'hiring_manager_name': {
+    #         'description': 'The name of the person the coverletter is addressed to - where available',
+    #         'type': 'str',
+    #         'default': 'Sarah Jones'
+    #     },
+    #
+    #     # Candidate
+    #
+    #     'candidate_name': {
+    #         'description': 'Name of the user applying for the job',
+    #         'type': 'str',
+    #         'default': 'Laura Jones'
+    #     },
+    #
+    #     'parsed_resume': {
+    #         'description': 'A dictionary containing resume fields (see default example)',
+    #         'type': 'json',
+    #         'default': parsed_resume_example
+    #     },
+    #
+    #     'resume_file': {
+    #         'description': 'A word doc or PDF where a parsed resume is not available. '
+    #                        'Provided as a URL to a file - for example: a word doc hosted in S3',
+    #         'type': 'str',
+    #         'default': 'https://www.coolfreecv.com/doc/coolfreecv_resume_en_06_n.docx'
+    #     },
+    #
+    # })

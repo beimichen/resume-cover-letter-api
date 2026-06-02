@@ -1,0 +1,14 @@
+server {
+    listen 80;
+    server_name YOUR_SERVER_IP;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/ubuntu/projects/resume-cover-letter-api/;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/ubuntu/projects/resume-cover-letter-api/resume-cover-letter-api.sock;
+    }
+}

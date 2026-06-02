@@ -1,0 +1,7 @@
+[program:resume-cover-letter-api]
+command=/home/ubuntu/projects/env/bin/gunicorn --workers 3 --bind unix:/home/ubuntu/projects/resume-cover-letter-api/resume-cover-letter-api.sock wsgi:app
+directory=/home/ubuntu/projects/resume-cover-letter-api/
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/resume-cover-letter-api.err.log
+stdout_logfile=/var/log/resume-cover-letter-api.out.log

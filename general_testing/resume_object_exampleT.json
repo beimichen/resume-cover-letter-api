@@ -1,0 +1,35 @@
+{
+  "personal": {
+
+
+
+
+
+
+
+
+
+  },
+  "experiences": [
+    {
+
+    }
+  ],
+
+  "references": [
+    {
+      "first_name": "test",
+      "last_name": "test",
+      "current_position": "software developer",
+      "phone": "12345678",
+      "email": "test@asdf.com"
+    },
+    {
+      "first_name": "test2",
+      "last_name": "test2",
+      "current_position": "software developer",
+      "phone": "123456782",
+      "email": "test2@asdf.com"
+    }
+  ]
+}

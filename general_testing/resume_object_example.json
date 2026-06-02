@@ -1,0 +1,95 @@
+{
+  "personal": {
+    "profile_summary": null,
+    "skills": [
+      "python",
+      "django"
+    ],
+    "tools": [
+      "word",
+      "photoshop"
+    ],
+    "languages": [
+      "enlish",
+      "french"
+    ],
+    "first_name": "first_name",
+    "middle_name": "middle_name",
+    "last_name": "last_name",
+    "position_title": "software developer",
+    "address": "10 something st",
+    "city": "Melbourne",
+    "state": "Vic",
+    "email": "email@s.com",
+    "phone": "12345678",
+    "zip_code": "1234"
+  },
+  "experiences": [
+    {
+      "experience_position": "test",
+      "experience_company": "micro",
+      "experience_location": "melbourne",
+      "experience_work_start_date": "12/03/2021",
+      "experience_work_end_date": "12/07/2021",
+      "experience_currently_working_here": true,
+      "experience_position_description": "test test test",
+      "selected_accomplishments": [
+        "I did something great",
+        "I did something else great"
+      ]
+    },
+    {
+      "experience_position": "test2",
+      "experience_company": "micro2",
+      "experience_location": "melbourne",
+      "experience_work_start_date": "12/03/2021",
+      "experience_work_end_date": "12/07/2021",
+      "experience_currently_working_here": true,
+      "experience_position_description": "test2 test test",
+      "selected_accomplishments": [
+        "I did something great 2",
+        "I did something else great 2"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "test",
+      "degree": "masters something",
+      "field": "software",
+      "education_start_date": "12/03/2021",
+      "education_end_date": "12/07/2021",
+      "selected_accomplishments": [
+        "I did something great",
+        "I did something else great"
+      ]
+    },
+    {
+      "institution": "test2",
+      "degree": "masters something2",
+      "field": "software",
+      "education_start_date": "12/03/2021",
+      "education_end_date": "12/07/2021",
+      "selected_accomplishments": [
+        "I did something great2",
+        "I did something else great2"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "first_name": "test",
+      "last_name": "test",
+      "current_position": "software developer",
+      "phone": "12345678",
+      "email": "test@asdf.com"
+    },
+    {
+      "first_name": "test2",
+      "last_name": "test2",
+      "current_position": "software developer",
+      "phone": "123456782",
+      "email": "test2@asdf.com"
+    }
+  ]
+}
