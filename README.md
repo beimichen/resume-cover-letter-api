@@ -70,4 +70,4 @@ See [`deployment/`](deployment/) for sample `nginx`, `gunicorn` (systemd), and
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
