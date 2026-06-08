@@ -1,10 +1,10 @@
 /examples
-/jobxai_api_venv
+/jobai_api_venv
 .idea
 /.idea
 .env
 .pyc
-jobxai_api.iml
+jobai_api.iml
 misc.xml
 
 # Created by .ignore support plugin (hsz.mobi)
